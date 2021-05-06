@@ -5,11 +5,16 @@ public class HelloWorld {
     public static void main(String[] args) {
 
         Scanner reader = new Scanner(System.in);
-        System.out.print("Enter a number: ");
+        System.out.print("Enter a number  1: ");
 
         
-        int number = reader.nextInt();
+        int number1 = reader.nextInt();
+  System.out.println("You entered: " + number);
 
-        System.out.println("You entered: " + number);
+       System.out.print("Enter a number 2: ");
+       
+        int number2 = reader.nextInt();
+
+        System.out.println("You entered: " + number2);
     }
 }
